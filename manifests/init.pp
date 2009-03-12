@@ -1,4 +1,4 @@
-# Copyright (c) 2008, Luke Kanies, luke@madstop.com
+# Copyright (c) 2009, Andrew Shafer, andrew@reductivelabs.com
 # 
 # Permission to use, copy, modify, and/or distribute this software for any
 # purpose with or without fee is hereby granted, provided that the above
@@ -13,5 +13,5 @@
 # OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 class ruby {
-    package { [ruby, ruby-dev]: ensure => installed }
+    package { [ruby1.8, ruby1.8-dev, rdoc, ri, irb, libopenssl-ruby1.8]: ensure => installed }
 }
