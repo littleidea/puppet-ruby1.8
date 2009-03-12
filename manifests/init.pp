@@ -13,5 +13,5 @@
 # OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 class ruby {
-    package { [ruby1.8, ruby1.8-dev, rdoc, ri, irb, libopenssl-ruby1.8]: ensure => installed }
+    package { ["ruby1.8", "ruby1.8-dev", "rdoc", "ri", "irb", "libopenssl-ruby1.8"]: ensure => installed }
 }
